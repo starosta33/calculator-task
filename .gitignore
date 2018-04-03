@@ -1,0 +1,10 @@
+log/*
+temp/*
+!.gitignore
+!.htaccess
+!web.config
+bootstrap.local.php
+config.local.neon
+vendor/
+*.iml
+.idea/
