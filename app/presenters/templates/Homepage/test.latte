@@ -1,7 +1,9 @@
 {block content}
-    <h1>Simple calculator task</h1>
-    {control inputForm}
+	<h1>Simple calculator task</h1>
+	{control inputForm}
 
-    <p>Formula: {$formula}</p>
-    <p n:if="!is_null($result)">Result: {$result}</p>
+	<div n:if="!is_null($formula)">
+		<p>Formula: {$formula}</p>
+		<p>Result: {$result}</p>
+	</div>
 {/block}

@@ -9,7 +9,7 @@ Task description
 
 - Vytvořte Presenter, který bude dostupný na URL/test-issue s tím, že presenter bude umět přijímat jeden nepovinný parametr value, který může obsahovat jakýkoliv znak.
 
-- Vytvořte komponentu, která bude obsahovat formulář s textareou a submit tlačítkem, po odeslání formuláře dojde k spočítání příkladu a vypsání výsledku. Pokud nebude parameter valueprázdný, tak provedete obdobnou akci jako při odeslání formuláře.
+- Vytvořte komponentu, která bude obsahovat formulář s textareou a submit tlačítkem, po odeslání formuláře dojde k spočítání příkladu a vypsání výsledku. Pokud nebude parameter value prázdný, tak provedete obdobnou akci jako při odeslání formuláře.
 
 - Výstupem bude správný výsledek výrazu. Algoritmus bude podporovat součet (+), rozdíl (-) a závorky (neomezený počet zanoření). Vyhodnocení výrazu musí provést váš algoritmus, nikoliv PHP (pomocí eval()) ani žádná externí služba.
 
