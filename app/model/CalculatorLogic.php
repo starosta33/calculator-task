@@ -12,8 +12,8 @@ use Calculator\Exception\CalculatorException;
 class CalculatorLogic
 {
     const NUMBER_REGEX = '\s*([\-\-\–]?\d+\.?\d*)\s*';
-    const MULTIPLICATION_AND_DIVISION_REGEX = self::NUMBER_REGEX . '([\\\\\/\*]+)' . self::NUMBER_REGEX;
-    const ADDITION_AND_SUBTRACTION_REGEX = self::NUMBER_REGEX . '([\+\-\–]+)' . self::NUMBER_REGEX;
+    const MULTIPLICATION_AND_DIVISION_REGEX = self::NUMBER_REGEX . '([\\\\\/\*])' . self::NUMBER_REGEX;
+    const ADDITION_AND_SUBTRACTION_REGEX = self::NUMBER_REGEX . '([\+\-\–])' . self::NUMBER_REGEX;
 
     /**
      * @param string $formula
